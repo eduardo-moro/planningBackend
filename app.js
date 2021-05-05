@@ -1,3 +1,5 @@
+//Arquivo inicialmente gerado automaticamente pelo Express
+
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
@@ -8,17 +10,6 @@ var indexRouter = require('./src/routes/index');
 var usuariosRouter = require('./src/routes/usuarios');
 
 var app = express();
-
-const MongoClient = require('mongodb').MongoClient;
-const uri = "mongodb+srv://master_user:YzJw5bw2WaszSd8@uplanner.ivyqo.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
-const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
-
-console.log(client)
-
-client.connect( err => {
-  const collection = client.db("test").collection("devices");
-  client.close();
-});
 
 // view engine setup
 app.set('views', path.join(__dirname, 'src/views'));
