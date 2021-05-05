@@ -2,12 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25303bc7-32b0-430a-a609-d17f00d9e533" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/usarioController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/usuarios.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/www" beforeDir="false" afterPath="$PROJECT_DIR$/bin/www" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.jade" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.jade" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/error.jade" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/error.jade" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.jade" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/index.jade" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layout.jade" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/layout.jade" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +45,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="development" />
+                    <option name="lastUsedInstant" value="1620182573" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="master" />
                     <option name="lastUsedInstant" value="1620182058" />
@@ -68,7 +81,13 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -78,7 +97,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1620173804973</updated>
-      <workItem from="1620173806305" duration="6346000" />
+      <workItem from="1620173806305" duration="7374000" />
+      <workItem from="1620183545954" duration="8000" />
+      <workItem from="1620183563278" duration="6000" />
+      <workItem from="1620183575093" duration="53000" />
+      <workItem from="1620183695562" duration="138000" />
+      <workItem from="1620183834533" duration="2055000" />
     </task>
     <servers />
   </component>
