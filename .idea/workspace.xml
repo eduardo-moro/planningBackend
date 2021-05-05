@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25303bc7-32b0-430a-a609-d17f00d9e533" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/base/controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/database.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/bankAcController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/contaController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/transacoesController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/usarioController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/usarioController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/base/controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base" beforeDir="false" afterPath="$PROJECT_DIR$/base/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/bankAcController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/usarioController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/usuarioController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/ping.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/usuarios.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/usuarios.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +101,7 @@
       <workItem from="1620183575093" duration="53000" />
       <workItem from="1620183695562" duration="138000" />
       <workItem from="1620183834533" duration="2183000" />
-      <workItem from="1620216618486" duration="8179000" />
+      <workItem from="1620216618486" duration="14638000" />
     </task>
     <servers />
   </component>
