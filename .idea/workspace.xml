@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25303bc7-32b0-430a-a609-d17f00d9e533" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/index.jade" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.jade" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,12 +37,8 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="development" />
-                    <option name="lastUsedInstant" value="1620179408" />
-                  </RecentBranch>
-                  <RecentBranch>
                     <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1620179407" />
+                    <option name="lastUsedInstant" value="1620182058" />
                   </RecentBranch>
                 </list>
               </option>
@@ -77,7 +78,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1620173804973</updated>
-      <workItem from="1620173806305" duration="4845000" />
+      <workItem from="1620173806305" duration="6346000" />
     </task>
     <servers />
   </component>
