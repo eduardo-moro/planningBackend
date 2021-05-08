@@ -1,7 +1,10 @@
 const { Controller } = require( '../../base/controller' );
 
-class ContaController extends Controller
-{
+class ContaController extends Controller {
+    constructor(service) {
+        super(service);
+        autoBind(this);
+    }
 
     create() {
 
@@ -14,6 +17,7 @@ class ContaController extends Controller
     inactivate() {
 
     }
+
 
 }
 

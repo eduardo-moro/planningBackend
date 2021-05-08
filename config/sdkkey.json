@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "uplanner-challenge",
+  "private_key_id": "fee6949ddf2330701358adfa1731a39096c9f207",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDRbjZx8ZJo2kbw\nF89OSFAs6fzAnhSpPUNkLMgxgqZ/99MN7wt7pWQ1OhuL3NnArrNOjD8uxT/xKwj8\nODSxpr8iizh2nOwPBfRjAYQSsUxgs4BlwFDTJkxBX4qhlwlxU3+wc3zrfUoGB9Bs\naIy6W7FIbgPQi35YqjT9lPM0tPVzeQeAdRVCG4yjizQRzs4993oYDPoNGWyDpAGN\nuE+WsQM+uR9fVWEGUa9+A1dCjhF6bYeWd/LxrJT0eW5H8iFRD9xCUwHDtaEEzsjf\naVZmBqRjKh2b+6QaiGfF7NZy9drgwnX+wGnj5n2fh6DzX89TathPZ9JJwMyr6EYD\n7gj5LGwTAgMBAAECggEAYgvIZnCzW+4wfq+O6HW3P0euAhkf0Blzxt6mPHOPcmJ5\nxtCuHg1QjBCvm7thoDDJlhDXdZR3unasxrOji7XmToxB+1m8s83UW1N22u9xM+Zl\nSn2N+UQ5N/O8KalVjN4L7fYrOe4WbRtUaqRJmedaaG/Ezmm31Ved5kfI0liTfqKG\nN/j5xzqaN/evVgSEjtGpWrIV28q+zPdOxHhcK5ycV5IC3uVJujooeIAf4Xht5FxV\n3AnU7YW8Zgd14DCOI/m8Y6fui3Ox2mI/G6UXc3sUyFFmVlFXhY65/X1LUKv7ahVh\ng+r1B0YnFSRHXIaHDnCv4JgeStu+yZk0tjZWRLPuHQKBgQDwi/b1dMTvt2l9IFYJ\nssgCyY3JYZ0Mrxyhyb44544n3M1IVJeksfLUDuENKEJ7pkP2Ny+n0aZt9tSF75Z0\n8TRgdOaiKlRiBkz3v/cXsBxXzP9DEzX3xROjahhVEn3/UXB2m3Vi6y0m2ENGgTAa\nXJ7wJyApo0KpPCreqWesFqc2XwKBgQDe4oKbXza8aDeZDMg94WVS4gyGbrrLIBoO\nU+xEFTp6hroYRkTDHwzthrvKibLuvwE6XCsnLmc3XhDxnBOuLBoTX1lwkCMaZ+8p\nji7yg7bsm9s5MEbD9ci+Iee249fF4dNN/xN3ZNU81cg9ST+cBlSjWRH9AZtKWEop\nL0l0DRFezQKBgQCWrzcO4A0WFZExXvZGsQX2KQh25H0bGv8WomhVAUjd08WMz+EG\nvKpfCMsWEOhEyQy9yihCOmTFceAD3ugjbY3f9psbbuTZWxUQBeLlpd67aaFmBTzD\nb2Mz9Rw0/paLQBrxUcUhKC1qrgLGwdq+SNMPoZLWQn1ZwmUggoJ9HNu2hQKBgQCB\nRYkRCqFZl2yfxU0irucwslEna3PFumHCa6R+PH3FcPzgdWkObqT14w5qQ4FXfcr9\niVWyDPTqpRFYwPidLZEWKVhbtA3YE+4gAQpzuDdRdngo7DovEBAVTt7xMacFa5w+\nAbLNrdsLxMa13RUaroVKlK+dOeBSt3CUAIwu1iF8BQKBgHICujKPRwoueqiM+r+v\ndPKHtrtZOIZlbGDkTKVU5WPKyq6KeaO7qCFnKbBIUwXSnrTSbBfwBWyoG8a0UYQO\nbeDWjGcjfWePt4SawaHWywqMtiCuoym7iw/AeDFqtO/2r9kujd5gYp/p8qM+/zX0\nXTijCMB8RAPT7Zy+Wk2cQumM\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-ctb4j@uplanner-challenge.iam.gserviceaccount.com",
+  "client_id": "112270226196528838539",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-ctb4j%40uplanner-challenge.iam.gserviceaccount.com"
+}

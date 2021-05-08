@@ -18,6 +18,6 @@ PATHS.forEach(
     }
 );
 
-console.table( moduleMapper );
+// console.table( moduleMapper );
 
 module.exports = router
