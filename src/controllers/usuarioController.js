@@ -17,29 +17,12 @@ class UsuarioController extends Controller {
         autoBind(this);
     }
 
-    async signup(req, res, next) {
-        let user = Firebase.createUser(req, res).then(user => {
-                console.log(user)
-                if (user !== undefined) {
-                    res.json({
-                        "status": true,
-                        "data": user
-                    })
-                    return false
-                } else {
-                    ReturnError(res, 404, "Unable to connect to firebase server.")
-                    return false
-                }
-            }
-        )
-
-    }
-
-    ping(req, res, next) {
+    ping(req, res) {
         res.json({
             "status": true,
             "data": {
-                "message": "pong!"
+                "message": "pong!",
+                "congrats": "you have successfully connected to firebase!"
             }
         })
     }

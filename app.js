@@ -1,13 +1,14 @@
 //Arquivo inicialmente gerado automaticamente pelo Express
 
-var createError = require('http-errors');
-var express = require('express');
-var path = require('path');
-var cookieParser = require('cookie-parser');
-var baseRouter = require('./base/router');
+const createError = require('http-errors');
+const express = require('express');
+const path = require('path');
+const cookieParser = require('cookie-parser');
+const baseRouter = require('./base/router');
+const app = express();
+const cors = require('cors')
 
-var app = express();
-
+app.use(cors())
 // view engine setup
 app.set('views', path.join(__dirname, 'src/views'));
 app.set('view engine', 'jade');
