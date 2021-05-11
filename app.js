@@ -8,7 +8,7 @@ const baseRouter = require('./base/router');
 const app = express();
 const cors = require('cors')
 
-app.use(cors())
+app.use(cors({origin: '*'}))
 // view engine setup
 app.set('views', path.join(__dirname, 'src/views'));
 app.set('view engine', 'jade');

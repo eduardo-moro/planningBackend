@@ -1,7 +1,5 @@
 const mongoose = require('mongoose')
-let client
 require("dotenv").config();
-
 
 class Database
 {
@@ -16,7 +14,15 @@ class Database
              err => console.log(err)
          );
 
+         let db = mongoose.connection;
+
+        db.on("error", console.error.bind(console, "connection error:"));
+
+        db.once("open", function() {
+          console.log("Mongoose connection started");
+        });
     }
+
 }
 
-module.exports = new Database()
+module.exports = Database

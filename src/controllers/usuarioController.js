@@ -17,6 +17,9 @@ class UsuarioController extends Controller {
         autoBind(this);
     }
 
+    /*
+     * Utilizada para teste durante o desenvolvimento.
+     */
     ping(req, res) {
         res.json({
             "status": true,
@@ -26,15 +29,6 @@ class UsuarioController extends Controller {
             }
         })
     }
-
-    async list(req, res, next) {
-        let users = await Firebase.listUsers();
-        res.json({
-            "status": true,
-            "data": users
-        })
-    }
-
 
 }
 
