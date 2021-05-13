@@ -20,6 +20,7 @@ class ContaController extends Controller {
         })
     }
 
+
     async create(req, res) {
         let wallet = req.body.wallet;
         wallet.uuid = req.headers.userid
@@ -35,7 +36,6 @@ class ContaController extends Controller {
 
     async update(req, res) {
         let walletId = req.body.wallet.id;
-        console.log(req.body)
         let wallet = await Promise.resolve(ContasModel.update(walletId, req.body.wallet)).then(data => {
             res.json({
                 "status": true,
@@ -43,11 +43,6 @@ class ContaController extends Controller {
             })
         })
     }
-
-    inactivate() {
-
-    }
-
 
 }
 
