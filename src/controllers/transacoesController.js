@@ -42,26 +42,17 @@ class TransacoesController extends Controller {
                     await ContasModel.listAll({
                         uuid: transaction.uuid,
                         _id: transaction.WalletId
-                    }).then(async conta => {
+                    }).then(async retorno => {
+                        let conta = retorno[0]
                         if (transaction.tipo == "saida") {
-                            if ((typeof conta.saldo) === Object || (typeof conta.saldo) === NaN || conta.saldo === undefined) {
+                            if (typeof (conta.saldo) === Object || typeof (conta.saldo) === NaN || conta.saldo === undefined) {
                                 conta.saldo = 0;
                             }
-                            console.table([
-                                parseFloat(conta.saldo),
-                                parseFloat(transaction.valor),
-                                (parseFloat(conta.saldo) - parseFloat(transaction.valor)).toString()
-                            ])
                             conta.saldo = (parseFloat(conta.saldo) - parseFloat(transaction.valor)).toString()
                         } else {
-                            if ((typeof conta.saldo) === Object || (typeof conta.saldo) === NaN || conta.saldo === undefined) {
+                            if (typeof (conta.saldo) === Object || typeof (conta.saldo) === NaN || conta.saldo === undefined) {
                                 conta.saldo = 0;
                             }
-                            console.table([
-                                parseFloat(conta.saldo),
-                                parseFloat(transaction.valor),
-                                (parseFloat(conta.saldo) + parseFloat(transaction.valor)).toString()
-                            ])
                             conta.saldo = (parseFloat(conta.saldo) + parseFloat(transaction.valor)).toString()
                         }
                         let wallet = await Promise.resolve(ContasModel.update(transaction.WalletId, conta)).then(data => {
