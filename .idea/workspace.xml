@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25303bc7-32b0-430a-a609-d17f00d9e533" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.jade" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.jade" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +31,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="development" />
+                    <option name="lastUsedInstant" value="1620182573" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="master" />
                     <option name="lastUsedInstant" value="1620182058" />
@@ -68,7 +67,14 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -78,7 +84,31 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1620173804973</updated>
-      <workItem from="1620173806305" duration="6346000" />
+      <workItem from="1620173806305" duration="7374000" />
+      <workItem from="1620183545954" duration="8000" />
+      <workItem from="1620183563278" duration="6000" />
+      <workItem from="1620183575093" duration="53000" />
+      <workItem from="1620183695562" duration="138000" />
+      <workItem from="1620183834533" duration="2183000" />
+      <workItem from="1620216618486" duration="15251000" />
+      <workItem from="1620267085350" duration="631000" />
+      <workItem from="1620267767746" duration="1155000" />
+      <workItem from="1620350919634" duration="4578000" />
+      <workItem from="1620395603455" duration="8929000" />
+      <workItem from="1620435099949" duration="4646000" />
+      <workItem from="1620482319955" duration="4155000" />
+      <workItem from="1620486480026" duration="4880000" />
+      <workItem from="1620501815247" duration="5114000" />
+      <workItem from="1620530849364" duration="750000" />
+      <workItem from="1620582843077" duration="16000" />
+      <workItem from="1620654289548" duration="1683000" />
+      <workItem from="1620665787895" duration="4639000" />
+      <workItem from="1620674814075" duration="11511000" />
+      <workItem from="1620698413393" duration="5414000" />
+      <workItem from="1620743305954" duration="4360000" />
+      <workItem from="1620789603917" duration="6560000" />
+      <workItem from="1620859050186" duration="624000" />
+      <workItem from="1620870188121" duration="16542000" />
     </task>
     <servers />
   </component>
