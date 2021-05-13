@@ -2,35 +2,45 @@ const BaseModel = require('../../base/baseModel')
 const Schema = require('../../config/database')
 const autoBind = require('auto-bind');
 const mongoose = require('mongoose')
-var ObjectId = require('mongodb').ObjectId;
+const ObjectId = require('mongodb').ObjectId;
+const ContasModel = require("./contasModel")
 
-const contas = new Schema()
+const transacoes = new Schema()
 
-let Model = mongoose.model('wallets', {
+let Model = mongoose.model('transacoes', {
     uuid: {
         type: String,
         required: true
     },
-    saldo: {
+    WalletId: {
         type: String,
         required: true
     },
-    nome: {
+    titulo: {
         type: String,
         required: true
     },
-    cor: {
+    valor: {
         type: String,
+        required: true
+    },
+    data: {
+        type: Date,
+        required: true
+    },
+    finalizado: {
+        type: Boolean,
         required: false
     },
-    ativa: {
-        type: Boolean,
+    tipo: {
+        type: String,
+        required: true
     }
 });
 
-ContasModel = new Model()
+TransacoesModel = new Model()
 
-ContasModel.insert = async model => {
+TransacoesModel.insert = async model => {
     try {
         new Model(model).save()
         return true
@@ -39,12 +49,12 @@ ContasModel.insert = async model => {
     }
 }
 
-ContasModel.listAll = async filter => {
-    const all = await Model.find(filter)
+TransacoesModel.listAll = async filter => {
+    const all = await Model.find(filter).sort({data: -1})
     return Object.assign({}, all);
 }
 
-ContasModel.update = async (id, newData) => {
+TransacoesModel.update = async (id, newData) => {
     try {
         Model.updateOne(
             {
@@ -63,4 +73,4 @@ ContasModel.update = async (id, newData) => {
 }
 
 
-module.exports = {ContasModel}
+module.exports = {TransacoesModel}

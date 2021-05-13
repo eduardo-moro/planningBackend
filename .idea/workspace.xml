@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25303bc7-32b0-430a-a609-d17f00d9e533" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/base/baseModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/contasModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/transacoesModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/transactions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/www" beforeDir="false" afterPath="$PROJECT_DIR$/bin/www" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/firebase.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/firebase.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controllers/contaController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/contaController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/usuarioController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/usuarioController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/transacoesController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/transacoesController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/contasModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/contasModel.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/wallets.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/wallets.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +68,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../frontend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -114,6 +112,10 @@
       <workItem from="1620665787895" duration="4639000" />
       <workItem from="1620674814075" duration="11511000" />
       <workItem from="1620698413393" duration="5414000" />
+      <workItem from="1620743305954" duration="4360000" />
+      <workItem from="1620789603917" duration="6560000" />
+      <workItem from="1620859050186" duration="624000" />
+      <workItem from="1620870188121" duration="12479000" />
     </task>
     <servers />
   </component>

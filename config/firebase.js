@@ -22,7 +22,7 @@ class Firebase {
     }
 
     checkAuth(req, res, next) {
-        let authorized = true;
+        let authorized = req.headers.authorization !== undefined;
         if (authorized == true) {
             next()
         } else {

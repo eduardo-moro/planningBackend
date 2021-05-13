@@ -12,7 +12,7 @@ class ContaController extends Controller {
     }
 
     async list(req, res) {
-        let wallets = await Promise.resolve(ContasModel.listAll()).then(data => {
+        let wallets = await Promise.resolve(ContasModel.listAll({uuid: req.headers.userid})).then(data => {
             res.json({
                 "status": true,
                 "data": data
@@ -20,12 +20,28 @@ class ContaController extends Controller {
         })
     }
 
-    create() {
-        
+    async create(req, res) {
+        let wallet = req.body.wallet;
+        wallet.uuid = req.headers.userid
+        if (wallet.nome !== "") {
+            if (ContasModel.insert(wallet)) {
+                res.json({
+                    "status": true,
+                    "data": ""
+                })
+            }
+        }
     }
 
-    update() {
-
+    async update(req, res) {
+        let walletId = req.body.wallet.id;
+        console.log(req.body)
+        let wallet = await Promise.resolve(ContasModel.update(walletId, req.body.wallet)).then(data => {
+            res.json({
+                "status": true,
+                "data": data
+            })
+        })
     }
 
     inactivate() {
