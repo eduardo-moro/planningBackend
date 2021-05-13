@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="25303bc7-32b0-430a-a609-d17f00d9e533" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/firebase.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/firebase.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controllers/transacoesController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/transacoesController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/transactions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/transactions.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

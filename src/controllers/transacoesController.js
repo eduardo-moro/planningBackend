@@ -74,12 +74,48 @@ class TransacoesController extends Controller {
 
     async update(req, res) {
         let id = req.body.transactions.id;
-        let wallet = await Promise.resolve(TransacoesModel.update(id, req.body.wallet)).then(data => {
+        let transactions = await Promise.resolve(TransacoesModel.update(id, req.body.transactions)).then(data => {
             res.json({
                 "status": true,
                 "data": data
             })
         })
+        let transaction = req.body.transactions;
+        transaction.uuid = req.headers.userid
+        if (transaction.nome !== "") {
+            if (TransacoesModel.update(req.body.transactions.id,transaction)) {
+                if (transaction.finalizado) {
+                    await ContasModel.listAll({
+                        uuid: transaction.uuid,
+                        _id: transaction.WalletId
+                    }).then(async retorno => {
+                        let conta = retorno[0]
+                        if (transaction.tipo == "saida") {
+                            if (typeof (conta.saldo) === Object || typeof (conta.saldo) === NaN || conta.saldo === undefined) {
+                                conta.saldo = 0;
+                            }
+                            conta.saldo = (parseFloat(conta.saldo) - parseFloat(transaction.valor)).toString()
+                        } else {
+                            if (typeof (conta.saldo) === Object || typeof (conta.saldo) === NaN || conta.saldo === undefined) {
+                                conta.saldo = 0;
+                            }
+                            conta.saldo = (parseFloat(conta.saldo) + parseFloat(transaction.valor)).toString()
+                        }
+                        let wallet = await Promise.resolve(ContasModel.update(transaction.WalletId, conta)).then(data => {
+                            res.json({
+                                "status": true,
+                                "data": data
+                            })
+                        })
+                    })
+                } else {
+                    res.json({
+                        "status": true,
+                        "data": ""
+                    })
+                }
+            }
+        }
     }
 
 }

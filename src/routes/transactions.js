@@ -11,4 +11,8 @@ router.post('/create', Firebase.checkAuth, async(req, res) => {
     transacoesController.create(req, res)
 });
 
+router.post('/update', Firebase.checkAuth, async(req, res) => {
+    transacoesController.update(req, res)
+});
+
 module.exports = router;
