@@ -26,7 +26,7 @@ npm run dev
 
 ### Também foi criado um comando para deploy automatico na aws elastic beanstalk:
 ```
-nppm run deploy-dev
+npm run deploy-dev
 
 // para rodar o comando, é nescessário instalar o elastic-beanstalk-cli:
 // https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install.html
