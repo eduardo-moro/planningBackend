@@ -37,7 +37,7 @@ class TransacoesController extends Controller {
         let transaction = req.body.transactions;
         transaction.uuid = req.headers.userid
         if (transaction.nome !== "") {
-            if (TransacoesModel.insert(transaction)) {
+            if (await TransacoesModel.insert(transaction)) {
                 if (transaction.finalizado) {
                     await ContasModel.listAll({
                         uuid: transaction.uuid,
@@ -83,7 +83,7 @@ class TransacoesController extends Controller {
         let transaction = req.body.transactions;
         transaction.uuid = req.headers.userid
         if (transaction.nome !== "") {
-            if (TransacoesModel.update(req.body.transactions.id,transaction)) {
+            if (await TransacoesModel.update(req.body.transactions.id, transaction)) {
                 if (transaction.finalizado) {
                     await ContasModel.listAll({
                         uuid: transaction.uuid,
